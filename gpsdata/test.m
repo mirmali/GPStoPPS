@@ -1,0 +1,10 @@
+data=load("file0340.txt");
+data=data';
+coeff=load("coefficients.txt");
+coeff=coeff';
+coeff=[coeff zeros(1,60)];
+resarr=[];
+tmparr=[];
+start=1;
+for i=1:1:504
+tmparr=fft(data(start:start+1024))

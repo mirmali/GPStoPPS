@@ -1,0 +1,5 @@
+The attached file contains the requested data at 2400 baud and 4800 baud.  Within the zip file, there are two folders each containing four files.  Each file is approximately 8 seconds long.
+
+The PPS signal is 20 ms long and the following data is the requested GPGGA, GPVTG, and GPGSA sentences as requested.  I am unaware as to what order the sentences were output.
+
+The recorder was set to a sampling rate of 48000 with a word length of 24 bits.
